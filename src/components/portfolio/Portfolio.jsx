@@ -2,8 +2,8 @@ import "./portfolio.css";
 
 import IMG1 from "../../assets/Flexcavo.png";
 import IMG2 from "../../assets/Meetnative.png";
-import IMG3 from "../../assets/Mobinspire.png";
-import IMG4 from "../../assets/Raise.png";
+import IMG3 from "../../assets/Mobinspire1.png";
+import IMG4 from "../../assets/Raise1.png";
 import IMG5 from "../../assets/Potsave.png";
 import IMG6 from "../../assets/Health.png";
 import React from "react";
@@ -17,7 +17,7 @@ const Portfolio = () => {
       img: IMG1,
       description:
         "It is the website for construction machine renting company (Flexcavo) from Berlin",
-      technologies: "React.js | Pixel-perfect | SCSS | Styled Component",
+      technologies: "React.js ",
       link: "https://www.flexcavo.de/",
     },
     {
@@ -31,21 +31,21 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: "Mob Inspire",
+      title: "Scientific Coorporation",
       img: IMG3,
       description:
-        "Mob Inspire streamlines the business operations in corporate sector by providing cost-effective and highly productive software solutions.",
-      technologies: "Nginx | PHP | MySQL | jQuery",
-      link: "https://www.mobinspire.com/",
+        "Scientific Corporation enhances pharmaceutical retail operations with a specialized Point of Sale (POS) software solution. Optimizes sales efficiency and accuracy while ensuring compliance and customer satisfaction in the pharmaceutical sector.",
+      technologies: "React Js | Laravel ",
+      link: "http://thesfb.live/ScientificCoorporation-2/",
     },
     {
       id: 4,
-      title: "Raise",
+      title: "Paragon POS",
       img: IMG4,
       description:
-        "Get started with free educational courses to mastery the foundations of startup equity as an African business.",
-      technologies: "Remix | React.js | Webflow | jQuery",
-      link: "https://www.raise.africa/",
+        "Paragon revolutionizes retail management in the hardware and PVC industries with a robust Point of Sale (POS) software solution. Powered by React for dynamic front-end experiences and Laravel for scalable back-end operations, ensuring seamless integration and enhanced operational efficiency.",
+      technologies: " React.js | Laravel ",
+      link: "http://thesfb.live/Paragon/",
     },
     {
       id: 5,
@@ -53,7 +53,7 @@ const Portfolio = () => {
       img: IMG5,
       description:
         "Through the PotSave.com platform, PotSave offers in-person product assessment and ordering services, accessible via the website, mobile applications, and software.",
-      technologies: "React | Next.js | Lodash | Tailwind CSS",
+      technologies: "React | Next.js  | Tailwind CSS",
       link: "https://dev-pwa.potsave.com/",
     },
     {
@@ -62,7 +62,7 @@ const Portfolio = () => {
       img: IMG6,
       description:
         "U of U Health is the Mountain West's only academic health care system. We provide patient care, medical research, and physician training.",
-      technologies: "Angular | Drupal | Nginx | TypeScript",
+      technologies: "React   | TypeScript | Node Js",
       link: "https://healthcare.utah.edu/",
     },
   ];
